@@ -160,7 +160,14 @@ body{
   .footer a:hover{
     text-decoration: underline;
   }
-
+	@media only  screen and (max-width: 1200px) {
+	.footer{
+		width:1200px;
+	}
+	.maindiv{
+		margin-left:6%;
+	}
+	}
 
 
 
